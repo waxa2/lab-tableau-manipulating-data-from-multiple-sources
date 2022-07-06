@@ -4,7 +4,8 @@
 
 For this lab, we will be using the dataset in the Customer Analysis Business Case. This dataset can be found in `files_for_lab` folder.
 
-In this lab we are going to take a look at the pdf file, `files_for_lab/nz_water_water_resources.pdf`, but we will take a look at the other two tables, ie. `page 14 table 2` and `page 14 table 3`.
+In this lab we are going to take a look at the pdf file, `files_for_lab/nz_water_water_resources.pdf`, but we will take a look at the other two tables, 
+ie. `page 14 table 2` and `page 14 table 3`.
 
 ## Context
 
@@ -24,7 +25,8 @@ As discussed during the last lesson, these are another couple of ways in which T
 
 **Hints**:
 
-- You will see that the information from the PDF file's _column 1_ is split into two different columns when the data was imported using Tableau. Select the two columns and then use the option `merge mismatch fields` to combine those two columns.
+- You will see that the information from the PDF file's _column 1_ is split into two different columns when the data was imported using Tableau. 
+Select the two columns and then use the option `merge mismatch fields` to combine those two columns.
 - Rename the columns appropriately (rename the headers as years, as given in the PDF)
 - Unlike the previous case, here we will keep all the sources except for the totals (ie. filter out the total and keep the rest)
 - Select the data and create a pivot as shown below
@@ -39,6 +41,10 @@ As discussed during the last lesson, these are another couple of ways in which T
   - Go ahead and change those aliases
     ![Editing_Aliases](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/6.1-edit_aliases.png)
   - Change dimensions to measures wherever necessary.
-  - Now go to the sheet, and create a plot and show the top 4 sources of generation. The final plot should look like this. Note here we have used a filter in the sheet to remove the column with discharge.
+  - Now go to the sheet, and create a plot and show the top 4 sources of generation. The final plot should look like this. 
+Note here we have used a filter in the sheet to remove the column with discharge.
 
   ![Plot example](https://education-team-2020.s3-eu-west-1.amazonaws.com/data-analytics/6.1-lab_final_plot.png)
+
+
+Resulting plot of this Lab: https://public.tableau.com/views/Lab-Manipulatingdatafrommultiplesources2/Sheet1?:language=de-DE&publish=yes&:display_count=n&:origin=viz_share_link
